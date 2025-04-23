@@ -196,7 +196,7 @@
   position: absolute;
   bottom: -10px;
   left: 50%;
-  transform: translate(-50%, 250%);
+  transform: translate(-50%, 200%);
   opacity: 0;
   visibility: hidden;
 
@@ -334,7 +334,7 @@
     position: absolute;
     bottom: -10px;
     left: 50%;
-    transform: translate(-50%, 250%);
+    transform: translate(-50%, 200%);
     opacity: 0;
     visibility: hidden;
 
@@ -385,6 +385,7 @@
   }
 
   .menu-open-btn,
+  .modal-close,
   .mobile-menu {
     display: none;
   }
