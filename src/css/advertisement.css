@@ -17,7 +17,7 @@
   flex-direction: column;
   gap: 28px;
 
-  background-image: url(./img/advertisement/advertisement-mob.png);
+  background-image: url(/img/advertisement/advertisement-mob.png);
   background-color: var(--main);
   border-radius: 30px;
   padding: 60px 28px;
@@ -27,7 +27,7 @@
   (min-resolution: 192dpi),
   (-webkit-min-device-pixel-ratio: 2) {
   .advertisement-container {
-    background-image: url(./img/advertisement/advertisement-mob@2x.png);
+    background-image: url(/img/advertisement/advertisement-mob@2x.png);
   }
 }
 
@@ -73,14 +73,14 @@
   .advertisement-container {
     max-width: 704px;
     gap: 32px;
-    background-image: url(./img/advertisement/advertisement-tab.png);
+    background-image: url(/img/advertisement/advertisement-tab.png);
   }
 
   @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ratio: 2) {
     .advertisement-container {
-      background-image: url(./img/advertisement/advertisement-tab@2x.png);
+      background-image: url(/img/advertisement/advertisement-tab@2x.png);
     }
   }
 
@@ -97,12 +97,12 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 83px 80px;
-    background-image: url(./img/advertisement/advertisement-desk.png);
+    background-image: url(/img/advertisement/advertisement-desk.png);
   }
 
   @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
     .advertisement-container {
-      background-image: url(./img/advertisement/advertisement-desk@2x.png);
+      background-image: url(/img/advertisement/advertisement-desk@2x.png);
     }
   }
 
