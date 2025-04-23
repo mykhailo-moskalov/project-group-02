@@ -11,14 +11,22 @@
   overflow: hidden;
 }
 
+.advertisement {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .advertisement-container {
   max-width: 335px;
   display: flex;
   flex-direction: column;
   gap: 28px;
-
-  background-image: url(/img/advertisement/advertisement-mob.png);
-  background-color: var(--main);
+  /* background-color: var(--main); */
+  background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
+    url(/img/advertisement/advertisement-mob.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   border-radius: 30px;
   padding: 60px 28px;
 }
@@ -27,7 +35,8 @@
   (min-resolution: 192dpi),
   (-webkit-min-device-pixel-ratio: 2) {
   .advertisement-container {
-    background-image: url(/img/advertisement/advertisement-mob@2x.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
+      url(/img/advertisement/advertisement-mob@2x.png);
   }
 }
 
@@ -70,17 +79,24 @@
 }
 
 @media screen and (min-width: 768px) {
+  .advertisement {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
   .advertisement-container {
     max-width: 704px;
     gap: 32px;
-    background-image: url(/img/advertisement/advertisement-tab.png);
+    padding: 80px 64px;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
+      url(/img/advertisement/advertisement-tab.png);
   }
 
   @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ratio: 2) {
     .advertisement-container {
-      background-image: url(/img/advertisement/advertisement-tab@2x.png);
+      background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
+        url(/img/advertisement/advertisement-tab@2x.png);
     }
   }
 
@@ -92,17 +108,23 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .advertisement {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   .advertisement-container {
     min-width: 1150px;
     flex-direction: row;
     justify-content: space-between;
     padding: 83px 80px;
-    background-image: url(/img/advertisement/advertisement-desk.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
+      url(/img/advertisement/advertisement-desk.png);
   }
 
   @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
     .advertisement-container {
-      background-image: url(/img/advertisement/advertisement-desk@2x.png);
+      background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
+        url(/img/advertisement/advertisement-desk@2x.png);
     }
   }
 
