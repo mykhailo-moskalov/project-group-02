@@ -3,14 +3,17 @@
 }
 
 .saleImg-wrapper {
-  max-width: 335px;
   width: 100%;
+}
+
+.hero {
+  display: none;
 }
 
 .saleImgRow-item {
   background-color: #F3F3F3;
   border: 1px solid rgba(12, 12, 12, .05);
-  width: 25%;
+  width: calc((100% / 4) - 4px);
   height: 80px;
   border-radius: 16px;
   display: flex;
@@ -119,7 +122,7 @@
 }
 
 .saleImgRow-item-img {
-  transition: 0.2s;
+  transition: 150ms ease-in-out;
 }
 
 .saleImgRow-item:hover>.saleImgRow-item-img {
@@ -148,7 +151,7 @@
 
   .saleImgRow-item {
     width: 132px;
-    height: 132px;
+    flex-basis: calc((100% - 30px) / 4);
     border-radius: 20px;
   }
 
@@ -242,7 +245,6 @@
   .saleDiscribe-priceNow {
     font-size: 20px;
   }
-
   .saleDiscribe-main {
     font-size: 16px;
   }
