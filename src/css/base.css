@@ -56,10 +56,3 @@ section:not(:last-child) {
     padding-bottom: 100px;
   }
 }
-
-h2 {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 0.91667;
-  letter-spacing: -0.02em;
-}
