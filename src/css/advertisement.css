@@ -1,20 +1,3 @@
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  white-space: nowrap;
-  clip: rect(0 0 0 0);
-  clip-path: inset(100%);
-  overflow: hidden;
-}
-
-.advertisement {
-  margin-bottom: 60px;
-}
-
 .advertisement-container {
   max-width: 335px;
   display: flex;
@@ -30,8 +13,7 @@
   padding: 60px 28px;
 }
 
-@media screen and (min-resolution: 2dppx),
-  (min-resolution: 192dpi),
+@media screen and (min-resolution: 192dpi),
   (-webkit-min-device-pixel-ratio: 2) {
   .advertisement-container {
     background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
@@ -79,8 +61,7 @@
       url(/img/advertisement/advertisement-tab.png);
   }
 
-  @media screen and (min-resolution: 2dppx),
-    (min-resolution: 192dpi),
+  @media screen and (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ratio: 2) {
     .advertisement-container {
       background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
