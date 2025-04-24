@@ -47,4 +47,12 @@ html {
 
 section:not(:last-child) {
   padding-bottom: 60px;
+  /* Styles for Tablet devices */
+  @media only screen and (min-width: 768px) {
+    padding-bottom: 80px;
+  }
+  /* Styles for Desktop devices */
+  @media only screen and (min-width: 1280px) {
+    padding-bottom: 100px;
+  }
 }
