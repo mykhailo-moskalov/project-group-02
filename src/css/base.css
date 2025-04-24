@@ -41,4 +41,13 @@ html {
   font-weight: 500;
   letter-spacing: -0.02em;
   color: var(--main);
+  transition: transform 100ms ease-in-out;
+}
+.logo:hover,
+.logo:focus {
+  transform: scale(1.25);
+}
+
+section:not(:last-child) {
+  padding-bottom: 60px;
 }
