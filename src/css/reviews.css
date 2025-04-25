@@ -16,8 +16,8 @@
 }
 .employee-name {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 1.1;
+  font-size: 16px;
+  line-height: 1.25;
   letter-spacing: -0.02em;
   text-align: center;
   margin-bottom: 8px;
@@ -43,16 +43,42 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
+  .reviews-list {
+    flex-direction: row; /* Змінюємо напрямок на рядок */
+    gap: 16px;
+  }
+
+  .reviews-item {
+    flex: 1 1 calc(50%); /* Два елементи в рядок з відступом */
+    min-width: 0; /* Фікс для переповнення */
+  }
+
   .reviews-item:not(:nth-child(1)) {
     display: block;
   }
   .reviews-item:last-child {
     display: none;
   }
+  .reviews-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .employee-name {
+    font-size: 18px;
+    line-height: 1.1;
+  }
 }
+
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
+  .reviews-item {
+    flex: 1 1 calc(33.333%); /* Три елементи в рядок */
+  }
+
   .reviews-item:last-child {
     display: block;
+  }
+  .reviews-list {
+    gap: 20px;
   }
 }
