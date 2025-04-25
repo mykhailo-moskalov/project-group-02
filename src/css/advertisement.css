@@ -1,7 +1,3 @@
-.advertisement {
-  margin-bottom: 60px;
-}
-
 .advertisement-background {
   width: 100%;
   height: 100%;
@@ -55,10 +51,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement {
-    margin-bottom: 80px;
-  }
-
   .advertisement-background {
     gap: 32px;
     padding: 80px 64px;
@@ -80,10 +72,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .advertisement {
-    margin-bottom: 100px;
-  }
-
   .advertisement-background {
     flex-direction: row;
     justify-content: space-between;
