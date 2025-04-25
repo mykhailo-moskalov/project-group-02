@@ -35,14 +35,19 @@ html {
 }
 
 .logo {
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: -0.02em;
   color: var(--main);
-  transition: transform 100ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 .logo:hover,
 .logo:focus {
-  transform: scale(1.25);
+  transform: translateY(-20%);
 }
 
 section:not(:last-child) {
