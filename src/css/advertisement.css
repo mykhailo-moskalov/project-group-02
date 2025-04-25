@@ -1,9 +1,6 @@
 .advertisement {
   margin-bottom: 60px;
 }
-.advertisement-container {
-  max-width: 375px;
-}
 
 .advertisement-background {
   width: 100%;
@@ -61,12 +58,8 @@
   .advertisement {
     margin-bottom: 80px;
   }
-  .advertisement-container {
-    max-width: 704px;
-  }
 
   .advertisement-background {
-    max-width: 768px;
     gap: 32px;
     padding: 80px 64px;
     background-image: url(/img/advertisement/advertisement-tab.png);
@@ -90,12 +83,8 @@
   .advertisement {
     margin-bottom: 100px;
   }
-  .advertisement-container {
-    max-width: 1280px;
-  }
 
   .advertisement-background {
-    max-width: 1280px;
     flex-direction: row;
     justify-content: space-between;
     padding: 83px 80px;
