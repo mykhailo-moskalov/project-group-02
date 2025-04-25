@@ -49,8 +49,7 @@
   }
 
   .reviews-item {
-    flex: 1 1 calc(50%); /* Два елементи в рядок з відступом */
-    min-width: 0; /* Фікс для переповнення */
+    flex-basis: calc((100% - 16px) / 2); /* Два елементи в рядок з відступом */
   }
 
   .reviews-item:not(:nth-child(1)) {
@@ -71,8 +70,12 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
+  .reviews-list {
+    gap: 20px;
+  }
+
   .reviews-item {
-    flex: 1 1 calc(33.333%); /* Три елементи в рядок */
+    flex-basis: calc((100% - 40px) / 2); /* Три елементи в рядок */
   }
 
   .reviews-item:last-child {
