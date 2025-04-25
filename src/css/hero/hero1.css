@@ -56,7 +56,7 @@
   right: 0;
   display: block;
   white-space: nowrap;
-  padding-top: 20px;
+  margin-top: auto;
   transition: color 0.3s ease, transform 0.3s ease,
     text-decoration-thickness 0.3s ease;
 }
