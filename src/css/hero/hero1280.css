@@ -1,0 +1,83 @@
+@media (min-width: 1280px) {
+  .hero {
+    padding-top: 168px;
+  }
+
+  .hero-main-wrap {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero-left-wrap {
+    width: 597px;
+  }
+
+  .hero-hdr {
+    font-size: 72px;
+    line-height: 0.88;
+  }
+
+  .hero-txt {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .hero-right-wrap {
+    margin-left: auto;
+    position: relative;
+  }
+
+  .hero-right-wrap a {
+    font-size: 20px;
+    line-height: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    white-space: nowrap;
+  }
+
+  .hero-person {
+    width: 60px;
+    height: 60px;
+    transition: right 0.6s ease;
+  }
+
+  .hero-person-3 {
+    right: 0;
+  }
+
+  .hero-person-2 {
+    right: 42px;
+  }
+
+  .hero-person-1 {
+    right: 86px;
+  }
+
+  .hero-right-wrap:hover .hero-person-3 {
+    left: auto;
+    right: 0;
+  }
+
+  .hero-right-wrap:hover .hero-person-2 {
+    left: auto;
+    right: 62px;
+  }
+
+  .hero-right-wrap:hover .hero-person-1 {
+    left: auto;
+    right: 124px;
+  }
+
+  .hero-img-wrap {
+    width: 1150px;
+    height: 500px;
+    background: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
+      image-set(
+        url('/img/hero/hero-desk.png') 1x,
+        url('/img/hero/hero-desk@2x.png') 2x
+      );
+  }
+}

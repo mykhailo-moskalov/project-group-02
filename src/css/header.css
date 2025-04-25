@@ -14,9 +14,7 @@
   align-items: center;
 }
 
-.header-logo {
-  font-size: 16px;
-}
+/* .header-logo {} */
 
 .header-container .header-nav {
   display: none;
@@ -44,13 +42,13 @@
   margin-left: auto;
   background-color: transparent;
   border: none;
-  transition: transform 100ms ease-in-out;
+  transition: transform 200ms ease-in-out;
 }
 
 .menu-open-btn:hover,
 .menu-open-btn:focus {
   /* transform: rotate(270deg); */
-  transform: scale(1.25);
+  transform: scale(1.15);
 }
 
 .menu-open-icon {
@@ -128,24 +126,24 @@
   justify-content: center;
   width: 34px;
   height: 34px;
-  transition: transform 250ms ease-in-out, background-color 250ms ease-in-out;
+  transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
 }
 
 .menu-close-btn:hover,
 .menu-close-btn:focus {
   background-color: var(--cards);
-  transform: scale(1.25);
+  transform: scale(1.15);
 }
 
 .menu-close-icon {
   stroke: var(--background);
-  transition: stroke 100ms ease-in-out, transform 100ms ease-in-out;
+  transition: stroke 200ms ease-in-out, transform 200ms ease-in-out;
 }
 
 .menu-close-btn:hover .menu-close-icon,
 .menu-close-btn:focus .menu-close-icon {
   stroke: var(--main);
-  transform: scale(1.25);
+  transform: scale(1.15);
 }
 
 .mobile-menu .header-nav {
@@ -160,7 +158,7 @@
 
 .mobile-menu .header-nav-item {
   cursor: pointer;
-  transition: transform 100ms ease-in-out;
+  transition: transform 200ms ease-in-out;
 }
 
 .mobile-menu .header-nav-item:not(:last-child) {
@@ -169,7 +167,7 @@
 
 .mobile-menu .header-nav-item:hover,
 .mobile-menu .header-nav-item:focus {
-  transform: scale(1.25);
+  transform: translateY(-20%);
 }
 
 .mobile-menu .header-nav-link {
@@ -193,8 +191,8 @@
   opacity: 0;
   visibility: hidden;
 
-  transition: transform 100ms ease-in-out, opacity 250ms ease-in-out,
-    visibility 250ms ease-in-out;
+  transition: transform 200ms ease-in-out, opacity 200ms ease-in-out,
+    visibility 200ms ease-in-out;
 }
 
 .mobile-menu .header-nav-item:hover .header-nav-link::after,
@@ -208,17 +206,16 @@
   display: flex;
   gap: 10px;
 }
-
 .mobile-menu .header-social-item {
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
   cursor: pointer;
-  transition: transform 100ms ease-in-out;
+  transition: transform 200ms ease-in-out;
 }
 
 .mobile-menu .header-social-item:hover,
 .mobile-menu .header-social-item:focus {
-  transform: scale(1.25);
+  transform: scale(1.15);
 }
 
 .mobile-menu .header-social-link {
@@ -231,20 +228,19 @@
 .mobile-menu .header-social-icon {
   fill: var(--background);
   opacity: 80%;
-  transition: opacity 250ms ease-in-out, transform 100ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
 }
 
 .mobile-menu .header-social-item:hover .header-social-icon,
 .mobile-menu .header-social-item:focus .header-social-icon {
   opacity: 100%;
-  transform: scale(1.25);
 }
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-  .header-logo {
+  /* .header-logo {
     font-size: 20px;
-  }
+  } */
 
   .menu-open-btn {
     width: 40px;
@@ -302,12 +298,12 @@
 
   .header-nav-item {
     cursor: pointer;
-    transition: transform 100ms ease-in-out;
+    transition: transform 200ms ease-in-out;
   }
 
   .header-nav-item:hover,
   .header-nav-item:focus {
-    transform: scale(1.25);
+    transform: translateY(-20%);
   }
 
   .header-nav-link {
@@ -331,8 +327,8 @@
     opacity: 0;
     visibility: hidden;
 
-    transition: transform 100ms ease-in-out, opacity 250ms ease-in-out,
-      visibility 250ms ease-in-out;
+    transition: transform 200ms ease-in-out, opacity 200ms ease-in-out,
+      visibility 200ms ease-in-out;
   }
 
   .header-nav-item:hover .header-nav-link::after,
@@ -351,12 +347,12 @@
     border: 1px solid rgba(12, 12, 12, 0.1);
     border-radius: 10px;
     cursor: pointer;
-    transition: transform 100ms ease-in-out;
+    transition: transform 200ms ease-in-out;
   }
 
   .header-social-item:hover,
   .header-social-item:focus {
-    transform: scale(1.25);
+    transform: scale(1.15);
   }
 
   .header-social-link {
@@ -368,13 +364,12 @@
 
   .header-social-icon {
     fill: var(--main);
-    transition: fill 100ms ease-in-out, transform 100ms ease-in-out;
+    transition: fill 200ms ease-in-out;
   }
 
   .header-social-item:hover .header-social-icon,
   .header-social-item:focus .header-social-icon {
     fill: var(--accent);
-    transform: scale(1.25);
   }
 
   .menu-open-btn,
