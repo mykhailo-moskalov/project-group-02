@@ -1,2 +1,2 @@
 import './js/menu';
-import './js/sale.js';
+import './js/sale';
