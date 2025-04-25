@@ -2,7 +2,7 @@
   margin-bottom: 60px;
 }
 .advertisement-container {
-  max-width: 335px;
+  max-width: 375px;
 }
 
 .advertisement-background {
@@ -66,7 +66,7 @@
   }
 
   .advertisement-background {
-    max-width: 704px;
+    max-width: 768px;
     gap: 32px;
     padding: 80px 64px;
     background-image: url(/img/advertisement/advertisement-tab.png);
@@ -91,18 +91,18 @@
     margin-bottom: 100px;
   }
   .advertisement-container {
-    min-width: 1150px;
+    max-width: 1280px;
   }
 
   .advertisement-background {
-    min-width: 1150px;
+    max-width: 1280px;
     flex-direction: row;
     justify-content: space-between;
     padding: 83px 80px;
     background-image: url(/img/advertisement/advertisement-desk.png);
   }
 
-  @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+  @media screen and (min-resolution: 192dpi) {
     .advertisement-background {
       background-image: url(/img/advertisement/advertisement-desk@2x.png);
     }
