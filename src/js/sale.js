@@ -1,17 +1,16 @@
 /* SALE JS */
 
-let itemWatch = document.querySelectorAll(".saleImgRow-item");
-let mainImg = document.querySelector(".saleMainImg-item");
+let itemWatch = document.querySelectorAll('.saleImgRow-item');
+let mainImg = document.querySelector('.saleMainImg-item');
 
-const basePath = "/project-group-02/src";
+const basePath = '/src';
 
 itemWatch.forEach((e, i) => {
-  itemWatch[i].addEventListener("click", doSwitch);
-
+  itemWatch[i].addEventListener('click', doSwitch);
+  // prettier-ignore
   function doSwitch() {
     console.log(i+1);
-    mainImg.setAttribute("src", `${basePath}/img/sale/${i+1}/sale-${i+1}-mob-max.png`);
-    mainImg.setAttribute("srcset", `${basePath}/img/sale/${i+1}/sale-${i+1}-mob-max.png 1x, /img/sale/${i+1}/sale-${i+1}-mob@2x-max.png 2x`);
+    mainImg.setAttribute("src", `/img/sale/${i+1}/sale-${i+1}-mob-max.png`);
+    mainImg.setAttribute("srcset", `/img/sale/${i+1}/sale-${i+1}-mob-max.png 1x, /img/sale/${i+1}/sale-${i+1}-mob@2x-max.png 2x`);
   }
 });
-
