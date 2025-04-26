@@ -11,7 +11,7 @@ itemWatch.forEach((e, i) => {
   function doSwitch() {
     console.log(i+1);
     mainImg.setAttribute("src", `${basePath}/img/sale/${i+1}/sale-${i+1}-mob-max.png`);
-    mainImg.setAttribute("srcset", `${basePath}/img/sale/${i+1}/sale${i+1}-mob-max.png 1x, /img/sale/${i+1}/sale-${i+1}-mob@2x-max.png 2x`);
+    mainImg.setAttribute("srcset", `${basePath}/img/sale/${i+1}/sale-${i+1}-mob-max.png 1x, /img/sale/${i+1}/sale-${i+1}-mob@2x-max.png 2x`);
   }
 });
 
