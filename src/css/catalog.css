@@ -62,9 +62,6 @@
   border: none;
 }
 @media screen and (min-width: 768px) {
-  .catalog-container {
-    max-width: 768px;
-  }
   .catalog-title {
     margin-bottom: 40px;
     font-size: 48px;
@@ -86,9 +83,6 @@
   .catalog-cards li:nth-last-child(-n + 2) {
     display: block;
   }
-  .catalog-images-clock {
-    padding: 10px 6px;
-  }
   .catalog-button {
     display: none;
   }
@@ -104,5 +98,20 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+}
+/* DESKTOP */
+
+@media screen and (min-width: 1280px) {
+  .catalog-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px 23px;
+    margin-bottom: 0;
+  }
+
+  .catalog-cards .catalog-images {
+    width: calc((100% - 46px) / 3);
   }
 }
