@@ -23,10 +23,8 @@
   background: #f3f3f3;
   padding: 24px 28px;
 }
-
-.catalog-images-clock {
-  padding: 18px 36px;
-  margin-bottom: 10px;
+.catalog-image-desc {
+  margin-top: 10px;
 }
 .image-title {
   font-weight: 500;
