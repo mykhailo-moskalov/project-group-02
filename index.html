@@ -12,7 +12,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/project-group-02/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group-02/assets/index-Ti43pcfn.css">
+    <link rel="stylesheet" crossorigin href="/project-group-02/assets/index-CyiEfXap.css">
   </head>
   <body>
     <!-- MYKHAILO -->
@@ -631,7 +631,98 @@
 
       <!-- SERHIY -->
       <section class="contact" id="contact">
-  <div class="container contact-container"></div>
+  <div class="container contact-container">
+    <h3 class="contact-title">Contact Us</h3>
+    <div class="contact-content">
+      <div class="contact-form-wrapper">
+        <p class="contact-form-title">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-form" action="#" method="post">
+          <div class="contact-form-field">
+            <label for="user-name" class="contact-form-label"></label>
+            <div class="model-input-wrap">
+              <input
+                class="contact-form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Name"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="contact-form-field">
+            <label for="email" class="contact-form-label"></label>
+            <div class="model-input-wrap">
+              <input
+                class="contact-form-input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,})\.([A-z]{2,8})"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="contact-form-field">
+            <label for="phone" class="contact-form-label"></label>
+            <div class="model-input-wrap">
+              <input
+                class="contact-form-input"
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="+380"
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                title="Формат: +380-XX-XXX-XX-XX"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="contact-form-field contact-form-field-comment">
+            <label for="user-comment" class="contact-form-label"></label>
+            <textarea
+              class="contact-form-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <button class="contact-form-button" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="contact-img-wrapper">
+        <picture>
+          <source
+            srcset="/project-group-02/assets/contact-desk-DvmVcWnu.png 1x, /project-group-02/assets/contact-desk@2x-CMsFdSG9.png 2x"
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="/project-group-02/assets/contact-tab-CbpmcAI7.png 1x, /project-group-02/assets/contact-tab@2x-C2S3M9RT.png 2x"
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="/project-group-02/assets/contact-mob-BvB-IKaG.png 1x, /project-group-02/assets/contact-mob@2x-BpV5i_qW.png 2x"
+            media="(min-width:320px)"
+          />
+          <img
+            class="contact-img"
+            srcset="/project-group-02/assets/contact-mob-BvB-IKaG.png 1x, /project-group-02/assets/contact-mob@2x-BpV5i_qW.png 2x"
+            src="/project-group-02/assets/contact-mob-BvB-IKaG.png"
+            alt="Photo of wristwatch"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
 </section>
 
     </main>
