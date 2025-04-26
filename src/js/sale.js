@@ -3,7 +3,7 @@
 let itemWatch = document.querySelectorAll(".saleImgRow-item");
 let mainImg = document.querySelector(".saleMainImg-item");
 
-const basePath = "/project-group-02";
+const basePath = "/project-group-02/src";
 
 itemWatch.forEach((e, i) => {
   itemWatch[i].addEventListener("click", doSwitch);
