@@ -34,7 +34,7 @@
 .image-desc {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.3;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
 }
@@ -45,7 +45,7 @@
   border-radius: 16px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.3;
+  line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
   transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
@@ -67,7 +67,7 @@
   .catalog-title {
     margin-bottom: 40px;
     font-size: 48px;
-    line-height: 1;
+    line-height: 0.92;
   }
   .catalog-cards {
     flex-direction: row;
