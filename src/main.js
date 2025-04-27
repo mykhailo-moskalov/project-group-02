@@ -1,7 +1,7 @@
 import './js/menu';
 import './js/sale';
 
-console.log("this is main.js");
+console.log('this is main.js');
 let itemWatch = document.querySelectorAll('.saleImgRow-item');
 let mainImg = document.querySelector('.saleMainImg-item');
 
