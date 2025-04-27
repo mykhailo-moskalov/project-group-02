@@ -14,7 +14,7 @@
 
 .contact-content {
    display: flex;
-   flex-direction: column;
+   flex-direction: column;   
    gap: 20px;
 }
 
@@ -88,12 +88,13 @@
    font-size: 14px;
    color: #fbfbfb;
    border-color: transparent;
-   transition: background-color 300ms ease-in-out;
+   transition: background-color 200ms ease-in-out, scale 200ms ease-in-out;
 }
 
 .contact-form-button:hover, 
 .contact-form-button:focus {
-   background-color: #1f3cd4;;
+   background-color: #1f3cd4;
+   transform: scale(1.08);
 }
 
 .contact-img-wrapper { 
