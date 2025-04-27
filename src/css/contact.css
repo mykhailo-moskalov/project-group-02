@@ -1,14 +1,7 @@
-.contact {
-   margin-bottom: 60px;
-}
-.container {
-}
-.contact-container {
-}
+
 .contact-title {
    font-weight: 600;
-   font-size: 32px;     
-   color: #0c0c0c;
+   font-size: 32px;        
    margin-bottom: 24px;
 }
 
@@ -20,7 +13,7 @@
 
 .contact-form-wrapper { 
    border-radius: 30px;
-   padding: 48px 0;
+   padding: 48px 28px;
    width: 335px;
    height: 512px;
    background-color: #f3f3f3;     
@@ -32,14 +25,9 @@
    font-weight: 500;
    font-size: 14px;  
    color: rgba(12, 12, 12, 0.7);
-   margin-bottom: 28px;
-   margin-left: auto;
-   margin-right: auto;
+   margin: 0 auto 28px;
 }
-.contact-form {
-   max-width: 279px;
-   margin: 0 auto;
-}
+
 .contact-form-field {
    margin-bottom: 18px;
 }
@@ -50,7 +38,7 @@
    border: 1px solid rgba(12, 12, 12, 0.15);
    border-radius: 12px;
    padding-left: 14px;
-   width: 100%;
+   width: 279px;
    height: 42px;   
    background-color: transparent;
    outline: transparent;
@@ -69,7 +57,7 @@
    border: 1px solid rgba(12, 12, 12, 0.15);
    border-radius: 12px;
    padding: 12px 14px;
-   width: 100%;
+   width: 279px;
    height: 84px;
    background-color: transparent;
    outline: transparent;
@@ -124,7 +112,7 @@
    }
    .contact-form-wrapper {
       border-radius: 50px;
-      padding: 50px 0;
+      padding: 50px 122px;
       width: 704px;
       height: 556px;     
    }
@@ -139,7 +127,8 @@
       max-width: 460px;     
    }  
 
-   .contact-form-input {       
+   .contact-form-input { 
+      width: 460px;      
       border-radius: 12px;
       padding-left: 18px;     
       height: 52px;
@@ -147,6 +136,10 @@
 
    .contact-form-field-comment {
       margin-bottom: 32px;
+   }
+
+   .contact-form-textarea {
+      width: 460px;
    }
 
    .contact-img-wrapper {
@@ -166,10 +159,10 @@
    }
   
    .contact-form-wrapper {
+      padding: 50px 60px;
       border-radius: 50px;      
       width: 580px;
-      height: 556px;
-      margin-bottom: 0;
+      height: 556px;      
    }
 
   
@@ -177,19 +170,9 @@
       font-size: 16px; 
       max-width: 463px;  
    }
+ 
 
-   .contact-form {
-      max-width: 460px;     
-   }  
-
-   .contact-form-input {       
-      border-radius: 12px;
-      padding-left: 18px;     
-      height: 52px;
-   }
-
-   .contact-img-wrapper {
-      border-radius: 50px;        
+   .contact-img-wrapper {            
       width: 530px;
    }
 }
