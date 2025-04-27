@@ -10,7 +10,7 @@ itemWatch.forEach((e, i) => {
   // prettier-ignore
   function doSwitch() {
     console.log(i+1);
-    mainImg.setAttribute("src", `/img/sale/gallary/${i+1}-min.png`);
-    mainImg.setAttribute("srcset", `/img/sale/gallary/${i+1}-min.png 1x, /img/sale/gallary/${i+1}-min.png 2x`);
+    mainImg.setAttribute("src", `/project-group-02/img/sale/gallary/${i+1}-min.png`);
+    mainImg.setAttribute("srcset", `/project-group-02/img/sale/gallary/${i+1}-min.png 1x, /img/sale/gallary/${i+1}-min.png 2x`);
   }
 });
