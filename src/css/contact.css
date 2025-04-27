@@ -1,6 +1,4 @@
-.contact {
-   margin-bottom: 60px;
-}
+
 .contact-title {
    font-weight: 600;
    font-size: 32px;        
@@ -100,9 +98,7 @@
 /* ====================================tablet ========================================== */
 
 @media screen and (min-width: 768px) {
-   .contact {
-      margin-bottom: 80px;
-   }
+ 
 
    .contact-title {     
       font-size: 48px;       
@@ -153,9 +149,7 @@
 /* ====================================desktop ========================================== */
 
 @media screen and (min-width: 1280px) {
-   .contact {
-      margin-bottom: 100px;
-   }
+ 
    .contact-content {      
       flex-direction: row;      
    }
