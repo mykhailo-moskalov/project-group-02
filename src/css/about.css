@@ -39,12 +39,13 @@
   line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
-  transition: background-color 250ms ease-in-out;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
 }
 
 .about-button:hover,
 .about-button:focus {
   background-color: #1f3cd4;
+  transform: scale(1.08);
 }
 
 .about-container {
