@@ -3,7 +3,10 @@
   display: none;
 }
 .saleImg-active {
-  display: block;
+  display: flex;
+}
+.catalog-show {
+  display: block !important;
 }
 .saleTitle {
   margin-bottom: 24px;
