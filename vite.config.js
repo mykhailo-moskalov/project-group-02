@@ -9,7 +9,8 @@ export default defineConfig(({ command }) => {
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
-    root: 'src',
+    root: 'src',                // твої файли у src/
+    base: '/project-group-02/', // ДОДАНО базовий шлях для GitHub Pages!
     build: {
       sourcemap: true,
       rollupOptions: {
@@ -34,7 +35,7 @@ export default defineConfig(({ command }) => {
           },
         },
       },
-      outDir: '../dist',
+      outDir: '../dist',         // збірка в dist/ (на рівні з src/)
       emptyOutDir: true,
     },
     plugins: [
