@@ -3,8 +3,6 @@
   padding-bottom: 20px;
 }
 
-/* .footer-container {} */
-
 .footer-bg {
   background-color: var(--main);
   border-radius: 30px;
@@ -148,8 +146,6 @@
   height: 100%;
 }
 
-/* .footer-address {} */
-
 .footer-address-link {
   display: inline-block;
   max-width: 83px;
@@ -189,7 +185,6 @@
   transform: translateY(-20%);
 }
 
-/* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .footer {
     padding-bottom: 32px;
@@ -269,7 +264,6 @@
     transform: translate(-50%, 200%);
     opacity: 0;
     visibility: hidden;
-
     transition: transform 200ms ease-in-out, opacity 200ms ease-in-out,
       visibility 200ms ease-in-out;
   }
@@ -303,7 +297,7 @@
     margin-left: auto;
   }
 }
-/* Styles for Desktop devices */
+
 @media only screen and (min-width: 1280px) {
   .footer-top {
     margin-bottom: 126px;

@@ -5,17 +5,20 @@
   letter-spacing: -0.02em;
   margin-bottom: 24px;
 }
+
 .reviews-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .reviews-img {
   margin: 0 auto;
   margin-bottom: 24px;
   border: 2px solid var(--background);
   border-radius: 50%;
 }
+
 .employee-name {
   font-weight: 500;
   font-size: 16px;
@@ -24,6 +27,7 @@
   text-align: center;
   margin-bottom: 8px;
 }
+
 .reviews-text {
   font-weight: 500;
   font-size: 14px;
@@ -43,7 +47,6 @@
   display: none;
 }
 
-/* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .reviews-list {
     flex-direction: row;
@@ -70,7 +73,6 @@
   }
 }
 
-/* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .reviews-list {
     gap: 20px;
