@@ -76,12 +76,15 @@
   text-align: center;
   padding: 14px 20px;
   margin-bottom: 40px;
-  transition: transform 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out, color 200ms ease-in-out,
+    transform 200ms ease-in-out;
   order: 1;
 }
 
 .footer-tel:hover,
 .footer-tel:focus {
+  background-color: var(--background);
+  color: var(--main);
   transform: scale(1.07);
 }
 

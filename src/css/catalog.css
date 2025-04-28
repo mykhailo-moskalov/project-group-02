@@ -1,9 +1,4 @@
 .catalog-title {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
   margin-bottom: 24px;
 }
 .catalog-cards {
@@ -22,21 +17,20 @@
   background: #f3f3f3;
   padding: 24px 28px;
 }
-.catalog-image-desc {
-  margin-top: 10px;
+.catalog-images-clock {
+  margin-bottom: 10px;
 }
 .image-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
   margin-bottom: 8px;
 }
 .image-desc {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
 }
@@ -47,10 +41,10 @@
   border-radius: 16px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,6 +54,7 @@
 .catalog-button:focus,
 .catalog-button:hover {
   background-color: #1f3cd4;
+  transform: scale(1.08);
 }
 
 /* TAB */
@@ -67,8 +62,6 @@
 @media screen and (min-width: 768px) {
   .catalog-title {
     margin-bottom: 40px;
-    font-size: 48px;
-    line-height: 0.91667;
   }
   .catalog-cards {
     flex-direction: row;
