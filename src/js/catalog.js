@@ -6,7 +6,7 @@ function showMore() {
   catalogEl[4].classList.toggle('catalog-show');
   catalogEl[5].classList.toggle('catalog-show');
   if (catalogEl[5].classList.contains('catalog-show')) {
-    btn.innerHTML = 'Hide more';
+    btn.innerHTML = 'Hide';
   } else {
     btn.innerHTML = 'Show more';
   }
