@@ -1,3 +1,10 @@
+
+.saleMainImg-item{
+  display: none;
+}
+.saleImg-active {
+  display: block;
+}
 .saleTitle {
   margin-bottom: 24px;
 }
@@ -174,6 +181,7 @@
     max-width: 328px;
     width: 100%;
   }
+
 
   .saleDiscribe {
     max-width: 704px;
