@@ -2,7 +2,7 @@
 
 let itemWatch = document.querySelectorAll('.saleImgRow-item');
 let mainImg = document.querySelector('.saleMainImg');
-
+let imagesMain = document.querySelectorAll('.saleMainImg-item');
 // itemWatch.forEach((e, i) => {
 //   itemWatch[i].addEventListener('click', doSwitch);
 
@@ -16,21 +16,14 @@ let mainImg = document.querySelector('.saleMainImg');
   // }
   // });
 
+console.log(imagesMain);
+
 itemWatch.forEach((e, i) => {
-  itemWatch[i].addEventListener('click', () => doSwitch(i + 1)); // передаємо індекс +1
+  itemWatch[i].addEventListener('click', () => doSwitch(i)); // передаємо індекс +1
 });
 
 function doSwitch(index) {
-  mainImg.innerHTML = `
-    <img
-      class="saleMainImg-item"
-      srcset="
-        img/sale/${index}/sale-${index}-mob-max.png 1x,
-        img/sale/${index}/sale-${index}-mob@2x-max.png 2x
-      "
-      src="img/sale/${index}/sale-${index}-mob-max.png"
-      alt="foto main"
-      width="235"
-    />
-  `;
+  console.log(index);
+  imagesMain.forEach((e) => { e.classList.remove("saleImg-active") });
+  imagesMain[index].classList.add("saleImg-active");
 }
