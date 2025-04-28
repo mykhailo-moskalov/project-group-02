@@ -28,7 +28,7 @@
   background-color: #f3f3f3;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  padding: 50px 0px;
+  padding: 50px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +46,7 @@
 .saleDiscribe-title {
   font-weight: 600;
   font-size: 24px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: -0.02em;
   color: var(--background);
   margin-bottom: 10px;
@@ -55,7 +55,7 @@
 .saleDiscribe-tag {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.5);
   margin-bottom: 20px;
@@ -82,7 +82,7 @@
 .saleDiscribe-priceOld {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: -0.02em;
   text-decoration: line-through;
   color: rgba(251, 251, 251, 0.5);
@@ -95,7 +95,7 @@
 .saleDiscribe-main {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.7);
   margin-bottom: 28px;
@@ -119,13 +119,11 @@
 }
 
 .saleImgRow-item {
-  /* transform: translateY(0); */
   transition: transform 200ms ease-in-out;
 }
 
 .saleImgRow-item:hover,
 .saleImgRow-item:focus {
-  /* transform: translateY(-2.5%); */
   transform: scale(1.08);
 }
 
@@ -145,7 +143,7 @@
   .saleImgRow {
     flex-direction: column;
     margin-right: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     gap: 10px;
   }
 
@@ -168,7 +166,7 @@
     max-width: 552px;
     width: 100%;
     height: 558px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     border-radius: 50px;
   }
 
@@ -186,7 +184,7 @@
   .saleDiscribe-title {
     max-width: 436px;
     font-size: 32px;
-    line-height: 1.125;
+    line-height: 1.13;
   }
 
   .saleDiscribe-price {
@@ -194,6 +192,7 @@
   }
 
   .saleDiscribe-main {
+    font-size: 16px;
     margin-bottom: 40px;
     line-height: 1.25;
   }
@@ -203,12 +202,7 @@
   }
 
   .saleTitle {
-    font-weight: 600;
-    font-size: 48px;
     margin-bottom: 40px;
-    /* line-height: 44px; */
-    line-height: 0.91667;
-    letter-spacing: -0.02em;
   }
 }
 
@@ -228,11 +222,11 @@
   .saleDiscribe {
     max-width: 530px;
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .saleImg-wrapper {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .saleImg-wrapper {
@@ -245,8 +239,5 @@
 
   .saleDiscribe-priceNow {
     font-size: 20px;
-  }
-  .saleDiscribe-main {
-    font-size: 16px;
   }
 }

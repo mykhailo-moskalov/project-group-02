@@ -1,8 +1,4 @@
 .catalog-title {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: -0.02em;
   margin-bottom: 24px;
 }
 .catalog-cards {
@@ -66,8 +62,6 @@
 @media screen and (min-width: 768px) {
   .catalog-title {
     margin-bottom: 40px;
-    font-size: 48px;
-    line-height: 0.92;
   }
   .catalog-cards {
     flex-direction: row;
