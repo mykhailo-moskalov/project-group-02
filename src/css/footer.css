@@ -33,12 +33,11 @@
 .footer .header-social-item {
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
-  cursor: pointer;
   transition: transform 200ms ease-in-out;
 }
 
-.footer .header-social-item:hover,
-.footer .header-social-item:focus {
+.header-social-item:has(a:hover),
+.header-social-item:has(a:focus) {
   transform: scale(1.15);
 }
 
@@ -47,18 +46,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform 200ms ease-in-out;
+}
+
+.footer .header-social-link:hover,
+.footer .header-social-link:focus {
+  transform: scale(1.15);
 }
 
 .footer .header-social-icon {
   fill: var(--background);
   opacity: 80%;
-  transition: opacity 250ms ease-in-out, fill 200ms ease-in-out;
+  transition: opacity 250ms ease-in-out;
 }
 
-.footer .header-social-item:hover .header-social-icon,
-.footer .header-social-item:focus .header-social-icon {
+.footer .header-social-link:hover .header-social-icon,
+.footer .header-social-link:focus .header-social-icon {
   opacity: 100%;
-  fill: var(--background);
 }
 
 .footer-tel {
@@ -129,21 +133,17 @@
   gap: 8px 16px;
 }
 
-.footer .header-nav-item {
-  cursor: pointer;
-  transition: transform 200ms ease-in-out;
-}
-
-.footer .header-nav-item:hover,
-.footer .header-nav-item:focus {
-  transform: translateY(-20%);
-}
-
 .footer .header-nav-link {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
+  transition: transform 200ms ease-in-out;
+}
+
+.footer .header-nav-link:hover,
+.footer .header-nav-link:focus {
+  transform: translateY(-20%);
 }
 
 .footer-address-link {
@@ -151,6 +151,7 @@
   max-width: 83px;
   transition: transform 200ms ease-in-out;
 }
+
 .footer-address-link:hover,
 .footer-address-link:focus {
   transform: translateY(-10%);
@@ -251,7 +252,6 @@
     gap: 19px;
   }
   .footer .header-nav-link::after {
-    display: none;
     content: '';
     display: inline-flex;
     width: 8px;
@@ -268,8 +268,8 @@
       visibility 200ms ease-in-out;
   }
 
-  .footer .header-nav-item:hover .header-nav-link::after,
-  .footer .header-nav-item:focus .header-nav-link::after {
+  .footer .header-nav-link:hover::after,
+  .footer .header-nav-link:focus::after {
     transform: translate(-50%, 0);
     opacity: 1;
     visibility: visible;

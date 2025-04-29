@@ -21,8 +21,8 @@
   padding: 24px 28px;
 }
 
-.catalog-images-clock {
-  margin-bottom: 10px;
+.catalog-image-desc {
+  margin-top: 28px;
 }
 
 .image-title {
@@ -90,6 +90,10 @@
     display: block;
   }
 
+  .catalog-image-desc {
+    margin-top: 20px;
+  }
+
   .catalog-button {
     display: none;
   }
@@ -121,5 +125,9 @@
 
   .catalog-cards .catalog-images {
     width: calc((100% - 46px) / 3);
+  }
+
+  .catalog-image-desc {
+    margin-top: 10px;
   }
 }
