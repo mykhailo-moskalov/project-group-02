@@ -19,6 +19,8 @@
                 placeholder="Name"
                 required
               />
+              <p class="text-valid">Succesful!</p>
+              <p class="text-invalid">Invalid name, please try again</p>
             </div>
           </div>
 
@@ -34,6 +36,8 @@
                 pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,})\.([A-z]{2,8})"
                 required
               />
+              <p class="text-valid">Succesful!</p>
+              <p class="text-invalid">Invalid email, please try again</p>
             </div>
           </div>
 
@@ -50,6 +54,8 @@
                 title="Format: +380-XX-XXX-XX-XX"
                 required
               />
+              <p class="text-valid">Succesful!</p>
+              <p class="text-invalid">Invalid phone number, please try again</p>
             </div>
           </div>
 
@@ -92,10 +98,6 @@
           />
           <img
             class="contact-img"
-            srcset="
-              /img/contact/contact-mob.png    1x,
-              /img/contact/contact-mob@2x.png 2x
-            "
             src="/img/contact/contact-mob.png"
             alt="Photo of wristwatch"
           />
