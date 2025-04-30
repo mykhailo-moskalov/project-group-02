@@ -25,6 +25,10 @@
   margin-bottom: 18px;
 }
 
+label.contact-form-label {
+  display: none;
+}
+
 .contact-form-input {
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;

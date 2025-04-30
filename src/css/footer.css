@@ -15,6 +15,7 @@
 }
 
 .footer-top-links {
+  margin-bottom: 20px;
   order: 0;
 }
 
@@ -27,7 +28,6 @@
 .footer .header-social-list {
   display: flex;
   gap: 10px;
-  margin-bottom: 20px;
 }
 
 .footer .header-social-item {
