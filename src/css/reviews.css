@@ -46,6 +46,12 @@
   scroll-snap-align: start;
 }
 
+.reviews-hint {
+  margin-top: 16px;
+  padding-left: 32px;
+  color: rgba(12, 12, 12, 0.4);
+}
+
 @media only screen and (min-width: 768px) {
   .reviews-item {
     min-width: calc((100% - 16px) / 2);
@@ -76,5 +82,9 @@
   .reviews-item {
     min-width: 0;
     width: calc((100% - 40px) / 3);
+  }
+
+  .reviews-hint {
+    display: none;
   }
 }
