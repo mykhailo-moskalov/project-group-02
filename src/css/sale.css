@@ -173,7 +173,8 @@
 
   .saleMainImg {
     padding: 80px 112px;
-    height: 100%;
+    height: 558px;
+    min-width: 552px;
     border-radius: 50px;
   }
 
