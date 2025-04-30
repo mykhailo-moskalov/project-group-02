@@ -356,8 +356,8 @@
     transition: fill 200ms ease-in-out;
   }
 
-  .header-social-link:hover .header-social-icon,
-  .header-social-link:focus .header-social-icon {
+  header .header-social-link:hover .header-social-icon,
+  header .header-social-link:focus .header-social-icon {
     fill: var(--accent);
   }
 
