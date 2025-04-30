@@ -115,7 +115,6 @@
   width: 100%;
   max-width: 335px;
   max-height: 366px;
-  height: calc((100vw - 40px) * 0.976);
   background-size: cover;
   background-position: center;
 }
