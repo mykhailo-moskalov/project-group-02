@@ -24,13 +24,13 @@ main {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: calc(74px + 30px);
+  scroll-padding-top: 74px;
 
   @media only screen and (min-width: 768px) {
-    scroll-padding-top: calc(92px + 40px);
+    scroll-padding-top: 92px;
   }
   @media only screen and (min-width: 1280px) {
-    scroll-padding-top: calc(88px + 50px);
+    scroll-padding-top: 88px;
   }
 }
 
